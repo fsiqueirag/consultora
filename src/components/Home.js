@@ -3,7 +3,12 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 export const Home = () => {
     return (
-        <section className="home__container" id="home">
+        <section className="home__container" id="home" style={{
+            backgroundImage: 'url("./images/hammer.jpg")',
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover'
+        }}
+        >
             <ScrollAnimation
                 animateIn='animate__animated animate__fadeIn'
                 animateOnce={true}
