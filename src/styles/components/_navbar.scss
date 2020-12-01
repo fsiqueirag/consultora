@@ -20,6 +20,13 @@
     padding: 3rem 3rem 3rem 3rem;
 }
 
+@media (max-width: 767px) {
+    .nav-top {
+        background-color: $dark-gray;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    }
+}
+
 .nav-full {
     background-color: $dark-gray;
     padding: 0.5rem 3rem 0.5rem 3rem;
@@ -44,11 +51,3 @@
     width: 60px;
 }
 
-.navbar-collapse {
-    padding: 0.5rem;
-    transition: 300ms all ease;
-}
-
-.show {
-    background-color: $dark-gray;
-}

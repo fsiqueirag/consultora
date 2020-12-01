@@ -17,29 +17,34 @@ export const Blog = () => {
             >
                 <h2>Blog</h2>
             </ScrollAnimation>
+            <ScrollAnimation
+                animateIn="animate__animated animate__fadeIn"
+                animateOnce={true}
+            >
+                <div className="row">
+                    {
+                        loading
+                            ?
+                            <p className="animate__animated animate__pulse animate__infinite">Cargando entradas del blog...</p>
+                            :
+                            lastPosts.map((post, index) => <Post post={post} key={post.id} position={index} />)
 
-            <div className="row">
-                {
-                    loading
-                        ?
-                        <p className="animate__animated animate__pulse animate__infinite">Cargando entradas del blog...</p>
-                        :
-                        lastPosts.map((post, index) => <Post post={post} key={post.id} position={index} />)
+                    }
 
-                }
-
-                {
-                    !loading
-                    &&
-                    <div className="blog__post-container col-lg-4 animate__animated animate__fadeIn">
-                        <div className="blog__post-card">
-                            <span className="fab fa-twitter blog__icon" />
-                            <a href="#" className="btn" target="_blank" rel="noreferrer">Ir al Twitter</a>
+                    {
+                        !loading
+                        &&
+                        <div className="blog__post-container col-lg-4 animate__animated animate__fadeIn">
+                            <div className="blog__post-card">
+                                <span className="fab fa-twitter blog__icon" />
+                                <a href="#" className="btn" target="_blank" rel="noreferrer">Ir al Twitter</a>
+                            </div>
                         </div>
-                    </div>
-                }
+                    }
 
-            </div>
+                </div>
+            </ScrollAnimation>
+
         </section>
     )
 }
