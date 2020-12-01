@@ -7,7 +7,7 @@ export const Blog = () => {
     const url = 'https://www.googleapis.com/blogger/v3/blogs/4886578494024518036/posts?key=AIzaSyCCjbKQtcFuD6s50ILmjhwlnudsvwFX9_Y';
     const { data, loading } = useFetch(url);
 
-    const lastPosts = data?.items.slice(0, 3);
+    const lastPosts = data?.items.slice(0, 2);
 
     return (
         <section className="blog__section" id="blog">
@@ -27,6 +27,18 @@ export const Blog = () => {
                         lastPosts.map((post, index) => <Post post={post} key={post.id} position={index} />)
 
                 }
+
+                {
+                    !loading
+                    &&
+                    <div className="blog__post-container col-lg-4 animate__animated animate__fadeIn">
+                        <div className="blog__post-card">
+                            <span className="fab fa-twitter blog__icon" />
+                            <a href="#" className="btn" target="_blank" rel="noreferrer">Ir al Twitter</a>
+                        </div>
+                    </div>
+                }
+
             </div>
         </section>
     )

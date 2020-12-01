@@ -39,3 +39,16 @@
 .navbar-toggler {
     color: red;
 }
+
+.navbar__logo {
+    width: 60px;
+}
+
+.navbar-collapse {
+    padding: 0.5rem;
+    transition: 300ms all ease;
+}
+
+.show {
+    background-color: $dark-gray;
+}

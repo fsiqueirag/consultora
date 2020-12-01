@@ -4,7 +4,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 export const Home = () => {
     return (
         <section className="home__container" id="home" style={{
-            backgroundImage: 'url("./images/hammer.jpg")',
+            backgroundImage: 'url("./images/newyork.jpg")',
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover'
         }}
@@ -14,7 +14,7 @@ export const Home = () => {
                 animateOnce={true}
             >
                 <div className="home__main-title">
-                    <h1 className="display-4">Titulo</h1>
+                    <h1 className="display-4">Consultora Para Emprendedores</h1>
                     <a className="btn btn-lg btn-outline-light" href="#about">Empezar</a>
                 </div>
             </ScrollAnimation>

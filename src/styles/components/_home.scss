@@ -1,3 +1,5 @@
+
+
 .home__container {
 
     align-items: center;
@@ -14,7 +16,41 @@
     padding: 3rem;
 
     h1 {
-        font-size: 6rem;
+        font-size: 5rem;
+        font-family: 'Major Mono Display';
+        font-weight: 300;
         margin-bottom: 2rem;
+
+        span {
+            color: $primary;
+            font-weight: 700;
+        }
     }
+}
+
+@media (max-width: 880px) {
+    .home__main-title {
+        h1 {
+            font-size: 3rem;
+        }
+    }
+    
+}
+
+@media (max-width: 560px) {
+    .home__main-title {
+        h1 {
+            font-size: 2rem;
+        }
+    }
+    
+}
+
+@media (max-width: 415px) {
+    .home__main-title {
+        h1 {
+            font-size: 1.3rem;
+        }
+    }
+    
 }

@@ -1,17 +1,22 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 
-export const Servicio = () => {
+export const Servicio = ({ title, icon, content1, content2, content3 }) => {
     return (
         <div className="servicios__card-container col-md-6">
             <ScrollAnimation
                 animateIn='animate__animated animate__fadeInUp'
                 animateOnce={true}
+                className="servicios__scrollContainer"
             >
                 <div className="servicios__card">
-                    <span className="fas fa-laptop servicios__icon" />
-                    <h3>Servicio</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, eius doloremque? Commodi assumenda optio repudiandae. Earum consectetur ut fugiat cupiditate amet cum sequi modi obcaecati quis sunt veniam, eaque alias!</p>
+                    <span className={`${icon} servicios__icon`} />
+                    <h3>{title}</h3>
+                    <p>{content1}</p>
+                    <br />
+                    <p>{content2}</p>
+                    <br />
+                    <p className="servicios__content3">{content3}</p>
                 </div>
             </ScrollAnimation>
         </div>
