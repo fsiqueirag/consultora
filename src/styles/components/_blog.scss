@@ -21,7 +21,7 @@
         margin-bottom: 1.4rem;
     }
 
-    a {
+    .blog__btn {
         align-self: flex-end;
         border: 2px solid $primary;
         color: $primary;
@@ -54,7 +54,7 @@
         color: #fff;
     }
 
-    a {
+    .blog__btn {
         align-self: flex-end;
         border: 2px solid #fff;
         color: #fff;
@@ -74,4 +74,26 @@
     display: flex;
     font-size: 5rem;
     margin: 5rem auto 0 auto;
+}
+
+.blog__tweet-link {
+    color: #1DA1F2;
+
+    &:hover {
+        color: #1DA1F2;
+    }
+}
+
+.blog__twitter-button {
+    align-self: flex-end;
+    border: 2px solid #1DA1F2;
+    border-radius: 7px;
+    color: #1DA1F2;
+    font-weight: 700;
+    margin: 2rem auto 1rem;
+
+        &:hover {
+            background-color: #1DA1F2;
+            color: #fff;
+        }
 }

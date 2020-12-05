@@ -7,29 +7,37 @@
     z-index: 2;
 }
 
-.navbar-brand {
-    color: #fff;
-    font-size: 2rem;
-
-    &:hover {
-        color: #fff;
-    }
-}
-
 .nav-top {
     padding: 3rem 3rem 3rem 3rem;
-}
-
-@media (max-width: 767px) {
-    .nav-top {
-        background-color: $dark-gray;
-    padding: 0.5rem 3rem 0.5rem 3rem;
-    }
 }
 
 .nav-full {
     background-color: $dark-gray;
     padding: 0.5rem 3rem 0.5rem 3rem;
+}
+
+.navbar__logo {
+    transition: 400ms ease-in-out all;
+}
+
+
+.navbar__logo-top {
+    width: 350px;
+}
+
+.navbar__logo-full {
+    width: 250px;
+}
+
+@media (max-width: 767px) {
+    .nav-top, .nav-full {
+        background-color: $dark-gray;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    }
+
+    .navbar__logo-top {
+        width: 250px;
+    }
 }
 
 .nav-link {
@@ -47,7 +55,5 @@
     color: red;
 }
 
-.navbar__logo {
-    width: 60px;
-}
+
 

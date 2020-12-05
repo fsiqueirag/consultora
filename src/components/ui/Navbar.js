@@ -15,7 +15,7 @@ export const Navbar = () => {
     return (
         <div>
             <nav id="navbar" className={`navbar navbar-expand-md navbar-dark ${isNavTop ? 'nav-top' : 'nav-full'}`}>
-                <a className="navbar-brand" href="#home"><img className="navbar__logo" src="./images/isotipo1.png" alt="logo" /></a>
+                <a className="navbar-brand" href="#home"><img className={`navbar__logo ${isNavTop ? 'navbar__logo-top' : 'navbar__logo-full'}`} src="./images/logo2.png" alt="logo" /></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

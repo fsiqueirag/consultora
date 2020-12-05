@@ -1,7 +1,7 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 
-export const Servicio = ({ title, icon, content1, content2, content3 }) => {
+export const Servicio = ({ title, icon, content1, content2, content3, contentBold }) => {
     return (
         <div className="servicios__card-container col-md-6">
             <ScrollAnimation
@@ -16,7 +16,8 @@ export const Servicio = ({ title, icon, content1, content2, content3 }) => {
                     <br />
                     <p>{content2}</p>
                     <br />
-                    <p className="servicios__content3">{content3}</p>
+                    <p>{content3}</p>
+                    <p className="servicios__content-bold">{contentBold}</p>
                 </div>
             </ScrollAnimation>
         </div>

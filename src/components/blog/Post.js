@@ -17,7 +17,7 @@ export const Post = ({ post, position }) => {
                     className="blog__content"
                     dangerouslySetInnerHTML={createMarkup()}
                 />
-                <a href={url} className="btn" target="_blank" rel="noreferrer">Seguir Leyendo</a>
+                <a href={url} className="btn blog__btn" target="_blank" rel="noreferrer">Seguir Leyendo</a>
             </div>
         </div>
     )
