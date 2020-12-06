@@ -2,9 +2,10 @@ import { About } from "./components/About";
 import { Blog } from "./components/Blog";
 import { Contact } from "./components/Contact";
 import { Divider } from "./components/Divider";
-import { Home } from "./components/Home";
 import { Servicios } from "./components/servicios/Servicios";
 import { Navbar } from "./components/ui/Navbar";
+import { Home } from "./Home";
+
 
 
 

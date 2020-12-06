@@ -4,7 +4,7 @@ export const Contact = () => {
     return (
         <section className="contact__section" id="contact">
             {/* <h2>Contacto</h2> */}
-            <img className="contact__logo" src="./images/logo.png" alt="logo" />
+            <img className="contact__logo" src="./images/isotipo1.png" alt="logo" />
 
             <div className="row">
                 <div className="col-md-6">

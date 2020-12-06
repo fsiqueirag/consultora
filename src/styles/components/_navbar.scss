@@ -32,11 +32,17 @@
 @media (max-width: 767px) {
     .nav-top, .nav-full {
         background-color: $dark-gray;
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     }
 
-    .navbar__logo-top {
-        width: 250px;
+    .navbar__logo-top, .navbar__logo-full {
+        width: 230px;
+    }
+}
+
+@media (max-width: 360px) {
+    .navbar__logo-top, .navbar__logo-full {
+        width: 160px;
     }
 }
 
