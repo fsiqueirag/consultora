@@ -62,4 +62,9 @@
 }
 
 
-
+@media (max-height: 450px) {
+    .navbar {
+        display: none;
+    }
+    
+}
