@@ -20,7 +20,7 @@ export const Home = () => {
                     }}>
                         <div className="home__main">
                             <h1 className="animate__animated animate__fadeInDown animate__slow">CONSULTORA PARA EMPRENDEDORES</h1>
-                            <p className="animate__animated animate__fadeInRight animate__slow">Somos una consultora de la Ciudad de Córdoba, que nace con la finalidad de prestar sus servicios a emprendedores y empresas.</p>
+                            <p className="animate__animated animate__fadeInRight animate__slow">Somos una consultora que nace con la finalidad de prestar sus servicios a emprendedores y empresas en el área del derecho de los negocios y desarrollo de la gestión y mejora de resultados.</p>
                             <a className="animate__animated animate__fadeInLeft animate__delay-1s btn btn-outline-light btn-lg home__button" href="#about">Conocé Más</a>
                         </div>
                     </div>
@@ -31,23 +31,23 @@ export const Home = () => {
                     }}>
                         <div className="home__main">
                             <h1 className="animate__animated animate__fadeInDown animate__slow">DESARROLLO DE NEGOCIOS</h1>
-                            <p className="animate__animated animate__fadeInRight animate__slow">El Desarrollo de Negocios consiste en el estudio de la gestión y la estrategia de una unidad de negocio con la finalidad de detectar oportunidades que resultaran pendientes en los proyectos de nuestros clientes, y que imposibilitaron el crecimiento deseado.</p>
+                            <p className="animate__animated animate__fadeInRight animate__slow">Consiste en el estudio de la gestión y la estrategia con la finalidad de detectar oportunidades pendientes que imposibilitaron el crecimiento deseado.</p>
                             <a className="animate__animated animate__fadeInLeft animate__delay-1s btn btn-outline-light btn-lg home__button" href="#servicios">Conocé Más</a>
                         </div>
                     </div>
                     <div className="carousel-item" style={{
-                        backgroundImage: 'url("./images/brooklynBridge.jpg")',
+                        backgroundImage: 'url("./images/hammer.jpeg")',
                         backgroundRepeat: 'no-repeat',
                         backgroundSize: 'cover'
                     }}>
                         <div className="home__main">
                             <h1 className="animate__animated animate__fadeInDown animate__slow">ABOGACÍA DE NEGOCIOS</h1>
-                            <p className="animate__animated animate__fadeInRight animate__slow">Esta es el área en nuestra práctica diaria que define nuestro perfil como abogados, y a consecuencia de ello, propone las distintas ramas de especialización en razón de responder a las inquietudes diarias de una empresa en el desarrollo de su actividad.</p>
+                            <p className="animate__animated animate__fadeInRight animate__slow">Esta área de la práctica define nuestro perfil como abogados. Estamos capacitados para responder a las necesidades diarias de una empresa en el desarrollo de su actividad.</p>
                             <a className="animate__animated animate__fadeInLeft animate__delay-1s btn btn-outline-light btn-lg home__button" href="#servicios">Conocé Más</a>
                         </div>
                     </div>
                     <div className="carousel-item" style={{
-                        backgroundImage: 'url("./images/newyork.jpg")',
+                        backgroundImage: 'url("./images/academia.jpg")',
                         backgroundRepeat: 'no-repeat',
                         backgroundSize: 'cover'
                     }}>
@@ -58,13 +58,13 @@ export const Home = () => {
                         </div>
                     </div>
                     <div className="carousel-item" style={{
-                        backgroundImage: 'url("./images/brooklynBridge.jpg")',
+                        backgroundImage: 'url("./images/mentores.jpeg")',
                         backgroundRepeat: 'no-repeat',
                         backgroundSize: 'cover'
                     }}>
                         <div className="home__main">
                             <h1 className="animate__animated animate__fadeInDown animate__slow">MENTORES</h1>
-                            <p className="animate__animated animate__fadeInRight animate__slow">En la Consultora creamos un Programa Mentores donde ofrecemos a los interesados en desarrollar sus proyectos una asesoría integral y planificada en materia de Desarrollo de Negocios, Comunicación y Asesoramiento Jurídico.</p>
+                            <p className="animate__animated animate__fadeInRight animate__slow">Contamos con programas subvencionados: Programa para Proyectos de Etapa Inicial, y Programa Administración de Emprendimientos. No dejes de consultar y postularte.</p>
                             <a className="animate__animated animate__fadeInLeft animate__delay-1s btn btn-outline-light btn-lg home__button" href="#servicios">Conocé Más</a>
                         </div>
                     </div>
