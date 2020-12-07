@@ -9,7 +9,7 @@ export const About = () => {
                     animateIn="animate__animated animate__fadeInLeft"
                     animateOnce={true}
                 >
-                    <h2>Acerca de</h2>
+                    <h2>Sobre Nosotros</h2>
                 </ScrollAnimation>
                 <ScrollAnimation
                     animateIn="animate__animated animate__fadeIn"

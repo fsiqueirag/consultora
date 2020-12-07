@@ -17,7 +17,9 @@
 }
 
 .contact__icon {
+    height: 32px;
     margin-bottom: 1rem;
+    width: 32px;
 }
 
 .contact__logo {
@@ -33,4 +35,13 @@
         right: 0;
         margin: auto;
     }
+}
+
+.fa-twitter {
+    color: $twitter;
+}
+
+.fa-whatsapp {
+    background-color: $wpp;
+    border-radius: 50%;
 }

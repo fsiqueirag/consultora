@@ -26,7 +26,7 @@ export const Navbar = () => {
                             <a className="nav-link" href="#home">Inicio</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#about">Acerca de</a>
+                            <a className="nav-link" href="#about">Sobre Nosotros</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#servicios">Servicios</a>
