@@ -53,7 +53,7 @@ export const Home = () => {
                     }}>
                         <div className="home__main">
                             <h1 className="animate__animated animate__fadeInDown animate__slow">ACADEMIA</h1>
-                            <p className="animate__animated animate__fadeInRight animate__slow">Siempre supimos que la mejor forma de aprender es enseñando. Esto nos mantiene alertas y ordenados a los nuevos conceptos. Quienes ejercemos la docencia en forma vocacional vivimos en constante instancia de aprendizaje.</p>
+                            <p className="animate__animated animate__fadeInRight animate__slow">Siempre supimos que la mejor forma de aprender es enseñando. Esto nos mantiene alertas y ordenados a los nuevos conceptos.</p>
                             <a className="animate__animated animate__fadeInLeft animate__delay-1s btn btn-outline-light btn-lg home__button" href="#servicios">Conocé Más</a>
                         </div>
                     </div>
