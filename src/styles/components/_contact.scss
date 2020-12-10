@@ -2,7 +2,7 @@
     background-color: $dark-gray;
     color: #fff;
     font-weight: 200;
-    padding: 5rem 9%;
+    padding: 3rem 9% 5rem;
     position: relative;
     text-align: center;
 
@@ -10,10 +10,11 @@
         color: #fff;
     }
 
-    p {
-        margin-bottom: 2rem;
-    }
+}
 
+.contact__text {
+    font-weight: 500;
+    margin-bottom: 2rem;
 }
 
 .contact__icon {
@@ -44,4 +45,9 @@
 .fa-whatsapp {
     background-color: $wpp;
     border-radius: 50%;
+}
+
+.contact__ciudad {
+    font-weight: 300;
+    margin-bottom: 4rem;
 }

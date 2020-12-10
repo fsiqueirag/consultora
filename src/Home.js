@@ -14,7 +14,7 @@ export const Home = () => {
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active" style={{
-                        backgroundImage: 'url("./images/brooklynBridge.jpg")',
+                        backgroundImage: 'url("./images/newyork.jpg")',
                         backgroundRepeat: 'no-repeat',
                         backgroundSize: 'cover'
                     }}>
@@ -25,7 +25,7 @@ export const Home = () => {
                         </div>
                     </div>
                     <div className="carousel-item" style={{
-                        backgroundImage: 'url("./images/newyork.jpg")',
+                        backgroundImage: 'url("./images/negocio.jpeg")',
                         backgroundRepeat: 'no-repeat',
                         backgroundSize: 'cover'
                     }}>
