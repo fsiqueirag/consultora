@@ -9,7 +9,7 @@ export const Contact = () => {
             <div className="row">
                 <div className="col-md-4">
                     <span className="fas fa-envelope fa-2x contact__icon" />
-                    <p className="contact__text">toniorosa@hotmail.com</p>
+                    <p className="contact__text">hola@consultoraparaemprendedores.com</p>
                 </div>
                 <div className="col-md-4">
                     <span className="fab fa-twitter fa-2x contact__icon" />
