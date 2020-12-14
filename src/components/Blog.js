@@ -57,7 +57,7 @@ export const Blog = () => {
 
                     }
 
-                    <a href="www.consultoraparaemprendedores.blogspot.com" className="btn blog__btn" target="_blank" rel="noreferrer">Ir al Blog</a>
+                    <a href="http://consultoraparaemprendedores.blogspot.com" className="btn blog__btn" target="_blank" rel="noreferrer">Ir al Blog</a>
                     {
                         // !loading
                         // &&
