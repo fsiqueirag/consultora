@@ -1,0 +1,34 @@
+.twitter__section {
+    background-color: #fff;
+    color: black;
+    padding: 6rem 10%;
+    text-align: center;
+    width: 100%;
+
+    a{
+    word-break: break-all;
+
+    }
+
+}
+
+.twitter__button {
+    align-self: flex-end;
+    border: 2px solid $twitter;
+    border-radius: 7px;
+    color: $twitter;
+    font-weight: 700;
+    margin: 2rem auto 1rem;
+
+        &:hover {
+            background-color: $twitter;
+            color: #fff;
+        }
+}
+
+.twitter__logo {
+    color: $twitter;
+    font-size: 5rem;
+    margin: auto;
+    margin-bottom: 2rem;
+}

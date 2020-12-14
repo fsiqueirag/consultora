@@ -34,11 +34,15 @@ export const Blog = () => {
                                     (
                                         lastPosts?.length === 2
                                             ?
-                                            <Post post={{ title: "Próximamente" }} position={2} />
+                                            <Fragment>
+                                                {lastPosts?.map((post, index) => <Post post={post} key={post.id} position={index} />)}
+                                                <Post post={{ title: "Próximamente" }} position={2} />
+                                            </Fragment>
                                             : (
                                                 lastPosts?.length === 1
                                                     ?
                                                     <Fragment>
+                                                        {lastPosts?.map((post, index) => <Post post={post} key={post.id} position={index} />)}
                                                         <Post post={{ title: "Próximamente" }} position={1} />
                                                         <Post post={{ title: "Próximamente" }} position={2} />
                                                     </Fragment>

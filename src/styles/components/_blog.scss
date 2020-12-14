@@ -81,32 +81,4 @@
     }
 }
 
-.blog__icon {
-    align-content: flex-end;
-    color: $twitter;
-    display: flex;
-    font-size: 5rem;
-    margin: 5rem auto 0 auto;
-}
 
-.blog__tweet-link {
-    color: $twitter;
-
-    &:hover {
-        color: $twitter;
-    }
-}
-
-.blog__twitter-button {
-    align-self: flex-end;
-    border: 2px solid $twitter;
-    border-radius: 7px;
-    color: $twitter;
-    font-weight: 700;
-    margin: 2rem auto 1rem;
-
-        &:hover {
-            background-color: $twitter;
-            color: #fff;
-        }
-}
