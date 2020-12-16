@@ -12,6 +12,10 @@
 
 }
 
+.contact__container {
+    margin-bottom: 2rem;
+}
+
 .contact__text {
     word-break: break-all;
     font-size: 0.9rem;
@@ -47,6 +51,17 @@
 .fa-whatsapp {
     background-color: $wpp;
     border-radius: 50%;
+}
+
+.fa-instagram {
+    color: $instagram2;
+}
+
+.fa-linkedin {
+    border-radius: 5%;
+    color: #fff;
+    height: 28px;
+    width: 28px;
 }
 
 .contact__ciudad {

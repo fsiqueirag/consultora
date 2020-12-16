@@ -4,8 +4,8 @@ import { About } from "./components/About";
 import { Blog } from "./components/Blog";
 import { Contact } from "./components/Contact";
 import { Divider } from "./components/Divider";
+import { Redes } from "./components/Redes";
 import { Servicios } from "./components/servicios/Servicios";
-import { Twitter } from "./components/Twitter";
 import { Navbar } from "./components/ui/Navbar";
 import { Home } from "./Home";
 
@@ -63,7 +63,7 @@ function App() {
             <Servicios />
             <Divider text="Hazlo, y si te da miedo, hazlo con miedo." />
             <Blog />
-            <Twitter />
+            <Redes />
             <Contact />
           </Fragment>
       }

@@ -1,0 +1,75 @@
+.redes__section {
+    background-color: #fff;
+    color: black;
+    padding: 6rem 10%;
+    text-align: center;
+    width: 100%;
+
+    a{
+    word-break: break-all;
+
+    }
+
+}
+
+.redes__twitter-button {
+    align-self: flex-end;
+    border: 2px solid $twitter;
+    border-radius: 7px;
+    color: $twitter;
+    font-weight: 700;
+    margin: 2rem auto 1rem;
+
+        &:hover {
+            background-color: $twitter;
+            color: #fff;
+        }
+}
+
+.redes__instagram-button {
+    align-self: flex-end;
+    border: 2px solid $instagram;
+    border-radius: 7px;
+    color: $instagram;
+    font-weight: 700;
+    margin: 2rem auto 1rem;
+
+        &:hover {
+            background-color: $instagram;
+            color: #fff;
+        }
+}
+
+.redes__twitter-logo {
+    color: $twitter;
+    font-size: 5rem;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.redes__instagram-logo {
+    color: $instagram;
+    font-size: 5rem;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.redes__instagram-profile {
+    width: 100%;
+}
+
+.redes__instagram-container {
+    align-content: space-between;
+    display: grid;
+    height: inherit;
+    margin-bottom: 3rem;
+    padding: 0 3%;
+}
+
+.redes__twitter-container {
+    align-content: space-between;
+    display: grid;
+    height: inherit;
+    margin-bottom: 3rem;
+    padding: 0 3%;
+}
