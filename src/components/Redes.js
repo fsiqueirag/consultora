@@ -5,7 +5,7 @@ export const Redes = () => {
     return (
         <section className="redes__section">
 
-            <div className="row">
+            <div className="row redes__container">
 
                 <div className="col-md-6 redes__twitter-container">
                     <ScrollAnimation
@@ -19,6 +19,7 @@ export const Redes = () => {
                         animateIn="animate__animated animate__fadeIn"
                         animateOnce={true}
                     >
+
                         <blockquote className="twitter-tweet">
                             <p lang="es" dir="ltr">Además de confianza aportamos conocimiento y experiencia. Queremos ser parte de la solución para que descanses un día como hoy. <br /><br />Ciudad de Córdoba. Provincia de Córdoba. República Argentina.
                             <a href="https://twitter.com/hashtag/BuenDomingo?src=hash&amp;ref_src=twsrc%5Etfw"> #BuenDomingo</a>
@@ -27,18 +28,21 @@ export const Redes = () => {
                             </p>&mdash; CPE (@CpEmprendedor)
                             <a href="https://twitter.com/CpEmprendedor/status/1333054491520888833?ref_src=twsrc%5Etfw">November 29, 2020</a>
                         </blockquote> <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
+
                     </ScrollAnimation>
 
                     <ScrollAnimation
                         animateIn="animate__animated animate__fadeIn"
                         animateOnce={true}
                     >
+
                         <a className="redes__twitter-button btn"
-                            href="https://twitter.com/CPEmprendedores"
+                            href="https://twitter.com/CPEmprendedor"
                             target="_blank"
                             rel="noreferrer"
                         >
                             Seguir en Twitter</a>
+                            
                     </ScrollAnimation>
 
 

@@ -5,11 +5,9 @@
     text-align: center;
     width: 100%;
 
-    a{
+    a {
     word-break: break-all;
-
     }
-
 }
 
 .redes__twitter-button {
@@ -42,21 +40,23 @@
 
 .redes__twitter-logo {
     color: $twitter;
-    font-size: 5rem;
+    font-size: 4rem;
     margin: auto;
     margin-bottom: 2rem;
 }
 
 .redes__instagram-logo {
     color: $instagram;
-    font-size: 5rem;
+    font-size: 4rem;
     margin: auto;
     margin-bottom: 2rem;
 }
 
 .redes__instagram-profile {
+    max-width: 350px;
     width: 100%;
 }
+
 
 .redes__instagram-container {
     align-content: space-between;
@@ -72,4 +72,10 @@
     height: inherit;
     margin-bottom: 3rem;
     padding: 0 3%;
+
+    p {
+        font-size: 0.9rem;
+        margin: auto auto 1rem;
+        max-width: 400px;
+    }
 }
