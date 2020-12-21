@@ -7,7 +7,6 @@ export const Blog = () => {
     const url = 'https://www.googleapis.com/blogger/v3/blogs/2358858623891326575/posts?key=AIzaSyCCjbKQtcFuD6s50ILmjhwlnudsvwFX9_Y';
     const { data, loading } = useFetch(url);
     const lastPosts = data?.items?.slice(0, 3);
-    console.log(lastPosts)
     return (
         <section className="blog__section" id="blog">
             <ScrollAnimation
