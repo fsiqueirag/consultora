@@ -1,5 +1,5 @@
-import React from 'react'
-import ScrollAnimation from 'react-animate-on-scroll'
+import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export const Redes = () => {
     return (
@@ -44,8 +44,6 @@ export const Redes = () => {
                             Seguir en Twitter</a>
                             
                     </ScrollAnimation>
-
-
 
                 </div>
 

@@ -14,7 +14,7 @@ export const Post = ({ post, position }) => {
                 <p className="blog__post-date">{published?.split("T", 1)}</p>
                 <h3>{title}</h3>
                 <div
-                    className="blog__content"
+                    className={`${position !== 1 ? "blog__content" : "blog__content-middle" }`}
                     dangerouslySetInnerHTML={createMarkup()}
                 />
                 {

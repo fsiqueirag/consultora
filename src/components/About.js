@@ -1,9 +1,12 @@
-import React from 'react'
-import ScrollAnimation from 'react-animate-on-scroll'
+import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export const About = () => {
+
     return (
+
         <section className="about__section" id="about">
+        
             <div>
                 <ScrollAnimation
                     animateIn="animate__animated animate__fadeInLeft"
@@ -21,6 +24,7 @@ export const About = () => {
                     <p>Sabemos que interpretamos las necesidades de nuestros clientes de manera diferente; sentimos y pensamos en un mismo sentido, porque somos parte del proyecto como si fuera propio.</p>
                 </ScrollAnimation>
             </div>
+            
         </section>
     )
 }

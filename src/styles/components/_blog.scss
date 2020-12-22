@@ -48,9 +48,26 @@
     }
 }
 
-.blog__content {
+.blog__content, .blog__content-middle {
     height: 100%;
     overflow: hidden;
+}
+
+.blog__content::after, .blog__content-middle::after {
+    content:'';
+    width: 100%;
+    height: 100%;    
+    position: absolute;
+    left: 0;
+    top: -110px;
+}
+
+.blog__content::after {
+    background: linear-gradient(transparent 220px, #fff);
+}
+
+.blog__content-middle::after {
+    background: linear-gradient(transparent 220px, $primary);
 }
 
 .blog__post-date {
