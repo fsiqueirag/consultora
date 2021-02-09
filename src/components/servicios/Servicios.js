@@ -18,7 +18,7 @@ const servicios = [
     title: 'ABOGACÍA DE LOS NEGOCIOS',
     icon: 'fas fa-balance-scale',
     content1:
-      'Esta es el área en nuestra práctica diaria que define nuestro perfil como abogados, y a consecuencia de ello, propone las distintas ramas de especialización en razón de responder a las inquietudes diarias de una empresa en el desarrollo de su actividad.',
+      'Esta es el área en nuestra práctica diaria que define nuestro perfil como abogados, a consecuencia de ello, propone las distintas ramas de especialización en razón de responder a las inquietudes diarias de una empresa en el desarrollo de su actividad.',
     content2:
       'Ser Abogado de Negocios implica conocimiento y experiencia. Con estas capacidades se puede brindar un Servicio jurídico de calidad, que permita, como en nuestro caso, hacer un buen trabajo jurídico para nuestros clientes.',
     content3:
